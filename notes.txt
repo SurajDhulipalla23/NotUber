@@ -1,0 +1,74 @@
+ToDo:
+    - Update T4_A algorithm to pick the most central node in each grid cell
+    - Update T5 to have a cost hueristic to disuade drivers from taking drives that put them in low density areas
+    - Update T5 heuristic so that it is based on rides in the next hour or so
+
+
+
+T1 results
+Average trip time:  34.996842746679306
+Number of trips over 100 mins:  89
+Average driver profit:  0.014718854341493308
+Average stops: 62.3
+
+T2 results 
+Average trip time:  30.238035597753147
+Number of trips over 100 mins:  64
+Average driver profit:  4.1368569914921345
+
+T3 Results
+Average trip time:  28.58269535600861
+Number of trips over 100 mins:  53
+Average driver profit:  5.224517219602349
+
+T4 Results - 5 mins
+Average trip time:  27.218256525719912
+Number of trips over 100 mins:  94
+Average driver profit:  5.556325969004302
+Average stops: 8.39
+
+--
+Average trip time:  39.37166873585565
+Number of trips over 100 mins:  269
+Average driver profit:  4.916419480837742
+Average dropoff wait time:  14.885779747330378
+Average pickup wait time:  9.969360266492657
+--
+
+Average trip time:  39.1474066065772
+Number of trips over 100 mins:  272
+Average driver profit:  5.086760080076974
+Average dropoff wait time:  14.945813885666942
+Average pickup wait time:  9.859053805589975
+
+T5 Results - 2703 seconds
+-Total
+Average trip time:  30.710811423665003
+Number of trips over 100 mins:  74
+Average driver profit:  3.947549455861584
+
+Average trip time:  30.710811423665003
+Number of trips over 100 mins:  74
+Average driver profit:  3.947549455861584
+
+- 200 drivers with 20 choices
+Average trip time:  32.581220364790646
+Number of trips over 100 mins:  0
+Average driver profit:  2.970044162127751
+Average dropoff wait time:  11.01647984155854
+Average pickup wait time:  8.046435679430795
+
+- 400 with 5 choices
+
+
+-- T3_extra.json Results--
+Average trip time:  32.436746816128164
+Number of trips over 100 mins:  0
+Average driver profit:  3.232156770223699
+Average dropoff wait time:  10.940750547411042
+Average pickup wait time:  7.708593777187351
+
+
+
+Density work:
+Average requests per cell 15x15: 22.23111111111111
